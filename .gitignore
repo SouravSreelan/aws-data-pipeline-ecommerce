@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+data/  # Temp data folder if any
+*.csv
+*.json
+*.parquet
