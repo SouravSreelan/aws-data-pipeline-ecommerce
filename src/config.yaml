@@ -1,0 +1,10 @@
+local:
+  data_dir: data/temp
+  db_path: data/ecommerce.db
+  log_file: logs/pipeline.log
+pipeline:
+  data_size: small
+  partition_keys: ['order_date', 'customer_id']
+spark:
+  executor_memory: 2g
+  shuffle_partitions: 4

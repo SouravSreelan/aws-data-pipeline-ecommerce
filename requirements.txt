@@ -1,9 +1,9 @@
 pandas
 numpy
 pyspark
-boto3
 pyyaml
 pytest
 pytest-cov
 pandera
-hypothesis  # For property-based testing
+hypothesis
+duckdb
