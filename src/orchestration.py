@@ -5,7 +5,6 @@ import os
 import logging
 from src.ingestion import ingest_batch, ingest_stream
 from src.etl import etl_process
-
 logging.basicConfig(filename='logs/pipeline.log', level=logging.INFO)
 
 with open('src/config.yaml') as f:
