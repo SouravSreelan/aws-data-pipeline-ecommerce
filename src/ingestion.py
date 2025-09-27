@@ -9,7 +9,6 @@ from src.data_generator import generate_orders, generate_clicks
 
 with open('src/config.yaml') as f:
     config = yaml.safe_load(f)
-
 stream_queue = queue.Queue()
 
 def save_to_file(df, path):
